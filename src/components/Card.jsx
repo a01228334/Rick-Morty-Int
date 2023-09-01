@@ -4,7 +4,7 @@ import {addFavorite, removeFavorite} from "../redux/actions/actions";
 import {useState, useEffect} from "react";
 import "./styles.css"
 
-
+//Card
 function Card(props) {
   const navigate = useNavigate();
   // const location = useLocation()
@@ -23,7 +23,6 @@ function Card(props) {
   }, []);
 
   useEffect(() => {
-    //[rick, morty, mr poppybutthole]
     favorites.forEach((fav) => {
       if (fav.id === character.id) {
         setFav(true);
