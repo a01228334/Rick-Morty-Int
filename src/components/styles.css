@@ -1,0 +1,138 @@
+.linkButton {
+    text-decoration: none;
+    padding: 8px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.linkButton-about {
+    color: black;
+    border-radius: 4;
+    background-color: rgb(248, 248, 248);
+    justify-content: center;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.linkButton-home {
+    color: black;
+    border-radius: 4;
+    background-color: rgb(248, 248, 248);
+    justify-content: center;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.agregarButton {
+    color: black;
+    border-radius: 4;
+    background-color: rgb(248, 248, 248);
+    justify-content: center;
+    font-size: 16;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.buttonContainer {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+/* Card.module.css */
+.cardContainer {
+    margin-top: 16px;
+    width: 300px;       /* Ancho exacto */
+    height: 400px;      /* Altura exacta */
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 50px auto;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;   /* Asegura que todo el contenido esté dentro de las dimensiones exactas */
+}
+
+.closeButton {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.favorite {
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.image {
+    cursor: pointer;
+    max-width: 100%;
+    display: block;
+}
+
+.about-me-section {
+    margin: 30px;
+    padding: 20px;
+    max-width: 1200px; /* Ajusta según tus preferencias. */
+    background-color: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.about-me-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-me-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.about-me-section h3 {
+    font-size: 22px;
+    color: #444;
+    margin-top: 20px;
+}
+
+.about-me-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-me-section ul li {
+    font-size: 16px;
+    color: #555;
+    padding: 5px 0;
+}
+
+ul {
+    align-items: center;
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;            /* Elimina el padding por defecto */
+    display: flex;         /* Activa flexbox */
+    flex-wrap: wrap;       /* Permite que los ítems se ajusten al tamaño del contenedor */
+    gap: 20px;             /* Espacio entre tecnologías, ajusta según lo necesites */
+    justify-content: center;
+}
+
+.tech-logo {
+    height: 30px;
+    margin-right: 14px;
+    vertical-align: middle; 
+}
+
+.highlighted-name {
+    font-weight: bold;           /* Makes the text bold */
+    padding: 2px 4px;            /* Adds a bit of space around the name */
+}
