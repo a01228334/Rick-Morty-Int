@@ -4,7 +4,7 @@ import {addFavorite, removeFavorite} from "../redux/actions/actions";
 import {useState, useEffect} from "react";
 import "./styles.css"
 
-//Card
+//Card -->
 function Card(props) {
   const navigate = useNavigate();
   // const location = useLocation()
