@@ -12,21 +12,6 @@ import About from "./views/About.jsx";
 
 import "./App.css";
 
-// const example = [
-//   {
-//     id: 1,
-//     name: "Rick Sanchez",
-//     status: "Alive",
-//     species: "Human",
-//     gender: "Male",
-//     origin: {
-//       name: "Earth (C-137)",
-//       url: "https://rickandmortyapi.com/api/location/1",
-//     },
-//     image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-//   },
-// ];
-
 function App() {
   const location = useLocation();
   const [characters, setCharacters] = useState([]);
@@ -57,7 +42,7 @@ function App() {
 
   function searchHandler(id) {
     axios(
-      `https://rym2-production.up.railway.app/api/character/${id}?key=henrym-hx-gcamey`
+      `https://rickandmortyapi.com/api/character/${id}`
     ).then(({data}) => {
       if (data.name) {
         setCharacters((oldChars) => [...oldChars, data]);
